@@ -3,7 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- *
  * @author Pramod Reddy Gonegari
  */
 public class ExamQ6U1 {
@@ -29,8 +28,9 @@ public class ExamQ6U1 {
             FileReader f1 = null;
 
             f1.read();
+        } catch (NullPointerException e) {
+            System.out.println("NullPointer Exception");
         } catch (IOException e) {
-            //Alternate logic
             e.printStackTrace();
         }
     }
